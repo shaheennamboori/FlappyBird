@@ -83,7 +83,7 @@ window.onload = () => {
       passed: false,
     };
     pipeArray.push(bottompipe);
-  }, 800);
+  }, 1500);
   document.addEventListener("keydown", (e) => {
     if (e.code == "Space" || e.code == "ArrowUp") {
       //jump
